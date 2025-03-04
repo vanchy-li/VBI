@@ -1,0 +1,21 @@
+name: gee
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - geemap[all]
+    - pytoc
+    - seaborn
+    - scikit-posthocs
+    - geopandas
+    - matplotlib
+    - pandas
+    - numpy
+    - scipy
+    - statsmodels
+    - openpyxl
+
